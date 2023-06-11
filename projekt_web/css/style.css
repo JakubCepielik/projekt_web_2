@@ -1,0 +1,283 @@
+  body, html{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;   
+  }
+
+  *, :after, :before {
+    box-sizing: border-box;
+  }
+  
+  .navbar{
+    color: #000;
+    font-weight: bold;  
+    font-size: 18px;
+    margin: 10px 98px 20px 98px;
+    padding:0;
+  }
+
+  .navbar-nav .nav-item + .nav-item{
+    margin:0px 0px 0px 45px;
+  }
+
+  .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+    color: #10c9c3;
+  }
+
+  .navbar .logo{
+    height: 30px;
+    margin:0px 0px 0px 20px;
+  }
+
+  #home{
+    background-image: url("../img/home.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  #home .row{
+    padding: 350px 98px 0px 98px;
+  }
+
+  #home .text{
+    font-size: 25px;
+    color:rgb(114, 114, 114);
+  }
+
+  #home .button1{
+    width: 250px;
+    height: 70px;
+    border-color: unset;
+    background-color: #10c9c3;
+    color: white;
+    border:0;
+    font-size: 20px;
+    transition:background-color 0.3s;
+  }
+
+  #home .button1:hover{
+    background-color: #10d7d1;
+  }
+
+  #about{
+    background-color: white;
+    height: 60vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  #about .col{
+    text-align: center;
+    margin: 0 auto;
+    width: 760px;
+    font-size: 20px;
+    padding-top: 50px;
+  }
+
+  #about h1{
+    margin-bottom: 20px;
+  }
+  
+  
+
+  #about-2{
+    display: flex; 
+    height: 80vh;
+    align-items: center;
+    padding: 0px 98px 0px 98px;
+    background-image: url("../img/skills.png");
+    background-size: cover;
+  }
+
+  #about-2 p{
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  #about-2 .progress-line-ui {
+    position: relative;
+    height: 2px;
+    width: 40%;
+    background-color: #b4b4b4;
+  }
+
+  #about-2 .progress-line-ui::after {
+    content: "";
+    position: absolute;
+    width: 75%; 
+    height: 100%;
+    background-color: #10d7d1; 
+  }
+
+  #about-2 .progress-line-web {
+    position: relative;
+    height: 2px;
+    width: 40%;
+    background-color: #b4b4b4;
+  }
+
+  #about-2 .progress-line-web::after {
+    content: "";
+    position: absolute;
+    width: 90%; 
+    height: 100%;
+    background-color: #10d7d1;
+  }
+
+  #about-2 .progress-line-mar {
+    position: relative;
+    height: 2px;
+    width: 40%;
+    background-color: #b4b4b4; 
+  }
+
+  #about-2 .progress-line-mar::after {
+    content: "";
+    position: absolute;
+    width: 65%; 
+    height: 100%;
+    background-color: #10d7d1; 
+  }
+
+  #work{
+    background-color: #10d7d1;
+    height: 35vh;
+    display: flex; 
+    padding:0px 98px 0px 98px;
+  }
+
+  #work .row{
+    height: 100%;
+  }
+
+  .material-symbols-outlined{
+    color: white;
+    transform: scale(3);
+  }
+
+
+  #work-main-cols{
+    display: flex; 
+    align-items: center;
+    padding-left: 50px;
+    height: 100%;
+  }
+
+  .icons-work{
+    display: flex; 
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .work-col-only-text{
+    padding: 0;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #work-2{
+    height: 75vh;
+    background-color: white;
+  }
+  #work-2 .container-fluid{
+    height: 100%;
+  }
+
+  #work-2 .row-product{
+    height: 45%;
+  }
+
+  #work-2 .row-load-more{
+    height: 10%;
+  }
+
+
+  #wor-2 .col{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  
+  
+  div.video-wrapper {
+	width: 70%;
+    margin: 0 auto;
+  }
+  
+  .our-work {
+	text-align: center;
+  }
+  
+  .our-work-desc {
+	text-align: center;
+    width: 50%;
+    margin: 30px auto;
+  }
+  
+  #process {
+	  padding-bottom: 80px;
+  }
+  
+  #testimonials {
+	background: #f5f5f5;
+	padding-top: 80px;
+  }
+  
+  #testimonials .icon, #testimonials .row {
+	text-align: center;
+  }
+  
+  #testimonials .material-symbols-outlined {
+	color: #292929;
+	font-size: 18px;
+  }
+  
+  .cap {
+	  margin-top: 20px;
+	  margin-bottom: 10px;
+  }
+  
+  .first-row {
+	padding-bottom: 60px;
+  }
+  
+  #carouselExampleCaptions {
+	  margin-top: 40px;
+  }
+  
+  #referrals {
+	  padding-top: 50px;
+	  padding-bottom: 50px;
+	  padding-left: 150px;
+	  padding-right: 150px;
+  }
+  
+  .submit-btn {
+	width: 20%;
+	margin: 0 auto;
+  }
+  
+  #contact {
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 70px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 50px;
+  }
+  
+  footer {
+	  background: #363636;
+	  color: white;
+	  padding-top: 40px;
+		padding-bottom: 60px;
+		padding-left: 40px;
+  }
+  
+  
+      
